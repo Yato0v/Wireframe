@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Logo/Botão */
+
+.logo{
+    padding: 5px 40px;
+    border: 1px solid var(--cor-p);
+    display: inline-block;
+}
+
+.logo::before{
+    content: "";
+    display: inline-block;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--cor-p);
+}
+
+.btn{
+    display: inline-block;
+    padding: 8px 35px;
+    background-color: #F67ACB;
+    color: var(--cor-2);
+}
+
+/* Container */
+
+.container{
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Font-1*/
+
+.font-1-xxl{
+    font-family: 'Sora', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.font-1-xl{
+    font-family: 'Sora', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.font-1-m{
+    font-family: 'Sora', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.font-1-m-b{
+    font-family: 'Sora', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    size: 1rem;
+}
+
+.font-1-s{
+    font-family: 'Sora', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    size: 0.93rem;
+}
+
+.font-1-s{
+    font-family: 'Sora', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    size: 0.87rem;
+}
+
+/*Font-2*/
+
+.font-2-xl{
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.12rem;
+}
+
+.font-2-m{
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.87rem;
+}
+
+/*Cor*/
+
+:root{
+    --cor-w: #fff;
+    --cor-p: #F67ACB;
+    --cor-0: #000;
+    --cor-1: #1C1D1F;
+    --cor-2: #050110;
+    --cor-3: #5C6066;
+    --cor-4: #393C40;
+    --cor-5: #E6EBF2;
+    --cor-6: #F7F8FA;
+}
+
+.cor-w{
+    color: var(--cor-w);
+}
+
+.cor-p{
+    color: var(--cor-p);
+}
+
+.cor-0{
+    color: var(--cor-0);
+}
+
+.cor-1{
+    color: var(--cor-1);
+}
+
+.cor-2{
+    color: var(--cor-2);
+}
+
+.cor-3{
+    color: var(--cor-3);
+}
+
+.cor-4{
+    color: var(--cor-4);
+}
+
+.cor-5{
+    color: var(--cor-5);
+}
+
+/* Background */
+
+.cor-w-bg{
+    background-color: var(--cor-w);
+}
+
+.cor-1-bg{
+    background-color: var(--cor-1);
+}
+
+.cor-2-bg{
+    background-color: var(--cor-2);
+}
+
+.cor-5-bg{
+    background-color: var(--cor-5);
+}
+
+.cor-6-bg{
+    background: var(--cor-6);
+}

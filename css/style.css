@@ -1,0 +1,10 @@
+/*global*/
+@import "./global/reset.css";
+@import "./global/ultilitario.css";
+
+/* header */
+@import "./global/header.css";
+
+/* Home */
+
+@import "./home/home.css";
