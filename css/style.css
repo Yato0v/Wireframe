@@ -6,5 +6,5 @@
 @import "./global/header.css";
 
 /* Home */
-
 @import "./home/home.css";
+@import "./home/secao.css";

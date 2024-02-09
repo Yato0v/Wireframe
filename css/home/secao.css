@@ -1,0 +1,42 @@
+.secao{
+    padding: 100px 20px;
+}
+
+.secao-sobre{
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.secao-item-c li div img{
+    margin-bottom: 50px;
+}
+
+.secao-item-c li:nth-child(even) h1{
+    color: black;
+}
+
+.secao-item-c li:nth-child(even){
+    background-color: white;
+}
+
+.secao-item-c h1:nth-child(odd){
+    color: var(--cor-w);
+}
+
+
+.secao-item-c li:nth-child(odd){
+    background-color: var(--cor-1);
+}
+
+.secao-item-c li{
+    padding: 80px 48px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.secao-item-c ul{
+    display: flex;
+    gap: 32px;
+}
